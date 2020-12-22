@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Базовый курс JavaScript</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h3>task-1</h3>
+    <ul>
+        <li>Задать температуру в градусах по Цельсию. Вывести в alert соответствующую температуру в градусах по Фаренгейту. Подсказка: расчет идет по формуле Tf = (9 / 5) * Tc + 32, где Tf — температура по Фаренгейту, Tc — по Цельсию.</li>
+        <div class="ex1">
+            <input type="text" name="tcel" id="tcel">
+            <input type="button" value="Рассчитать" onclick="getTf()">
+        </div>
+        <li>Объявить две переменные: admin и name. Записать в name строку "Василий"; Скопировать значение из name в admin. Вывести admin (должно вывестись «Василий»).
+            <input type="button" value="Ответ" onclick="adminAndName()">
+        </li>
+        <li>Чему будет равно JS-выражение 1000 + "108"?
+            <input type="button" value="Ответ" onclick="checkSumm()">
+        </li>
+        <li>Самостоятельно разобраться с атрибутами тега script (async и defer).
+            <div class="answer">
+                <ul>
+                    <li>async - Загружает скрипт асинхронно.</li>
+                    <li>defer - Откладывает выполнение скрипта до тех пор, пока вся страница не будет загружена полностью.</li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
